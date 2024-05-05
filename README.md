@@ -14,4 +14,4 @@ the function and run automatically when you commit through a GitHub action.
 What is the span of the parallel program, in terms of worst-case $\Theta$? Hint:
 It may help to consider the DAG of the parallel program.
 
-The span of parallelMergesort() is $\Theta(n\log(n))$ where n is the number of elements. The recursive divide-and-conquer process means a recursive depth of $\log(n)$ and n elements then being merged, resulting in a total cost of $\Theta(n\log(n))$
+The span of parallelMergesort() is $\Theta(n\log(n))$ where n is the number of elements. The recursive divide-and-conquer process means a recursive depth of $\log(n)$ and n elements then being merged, resulting in a total cost of $\Theta(n\log(n)),$ making it asymptotically no better or worse than a non-parallel mergesort in terms of worst-case time complexity.
